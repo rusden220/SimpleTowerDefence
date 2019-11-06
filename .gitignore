@@ -3,6 +3,33 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# MightyMoose
+# =============== #
+# Unity folders #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+3rdParty/
+Builds/
+
+# ===================================== #
+# Unity generated #
+# ===================================== #
+*.pidb.meta
+sysinfo.txt
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # User-specific files
 *.rsuser
 *.suo
@@ -144,7 +171,8 @@ _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
-# MightyMoose
+
+
 *.mm.*
 AutoTest.Net/
 
