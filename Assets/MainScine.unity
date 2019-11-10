@@ -4965,6 +4965,7 @@ GameObject:
   - component: {fileID: 1929088622}
   - component: {fileID: 1929088623}
   - component: {fileID: 1929088624}
+  - component: {fileID: 1929088625}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5015,6 +5016,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FrameRateText: {fileID: 197474526}
+--- !u!114 &1929088625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929088621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113087c7595e4f147b638395587fd4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StandardTurret: {fileID: 0}
 --- !u!1001 &2002772949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5608,15 +5622,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5472577076474269605, guid: 10b67717329d5314c82a671c9a9691f4,
-        type: 3}
-      propertyPath: Speed
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 7547885170383035028, guid: 10b67717329d5314c82a671c9a9691f4,
         type: 3}
       propertyPath: m_Name
       value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: -5472577076474269605, guid: 10b67717329d5314c82a671c9a9691f4,
+        type: 3}
+      propertyPath: Speed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7547885170383035033, guid: 10b67717329d5314c82a671c9a9691f4,
         type: 3}

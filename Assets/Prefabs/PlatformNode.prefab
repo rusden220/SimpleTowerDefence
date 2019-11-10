@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5928482303220062094}
   - component: {fileID: 7183823464701851140}
   - component: {fileID: 5591059700289385079}
+  - component: {fileID: 5345666403171328351}
   m_Layer: 0
   m_Name: PlatformNode
   m_TagString: Untagged
@@ -92,3 +93,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5345666403171328351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2516103241420091713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec7c6a37d200d043bb743fadfc7e8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TurretOffset: {x: 0, y: 3, z: 0}
+  SelectPlatfomColor: {r: 0.4669811, g: 0.8223272, b: 1, a: 1}

@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\FrameRateManager.cs" />
+    <Compile Include="Assets\Scripts\GameObjectBuilder.cs" />
+    <Compile Include="Assets\Scripts\Platform.cs" />
     <Compile Include="Assets\Scripts\TurretScript.cs" />
     <Compile Include="Assets\Scripts\WaveSpowner.cs" />
     <Compile Include="Assets\Scripts\WaypointScrip.cs" />
